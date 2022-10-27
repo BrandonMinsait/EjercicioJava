@@ -1,5 +1,5 @@
 sonar.projectKey=Prueba
 sonar.projectName=Prueba
 sonar.projectVersion=0.1
-sonar.sources=/src/
-sonar.exclusions=/**/.java
+sonar.sources=src/
+sonar.exclusions=**/.java
