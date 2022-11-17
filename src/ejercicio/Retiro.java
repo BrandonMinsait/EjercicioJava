@@ -35,6 +35,7 @@ public class Retiro {
                     break;
             }
             Movimientos.movimientos.add(lista);
+            System.out.println("\n\tSaldo actual: $"+Consulta.saldo+".");
         }
     }
     

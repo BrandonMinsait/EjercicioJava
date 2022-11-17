@@ -62,7 +62,7 @@ public class Menu {
             Integer opc = 0;
             try {
                 opc = new Integer(menuP);
-            } catch (Exception e) {
+            } catch (NumberFormatException e) {
                 System.err.println("\n\t\t\t\tNo se ha escogido una opcion valida.");
             } finally {
                 if (opc != 0) {
